@@ -1,0 +1,32 @@
+var SB2 = {
+"type": "FeatureCollection",
+"name": "SB2",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Nombre": "Av. Maria Girona - Est. FGC Sant Boi", "Latitud": 41.347898, "Longitud": 2.043674 }, "geometry": { "type": "Point", "coordinates": [ 2.043673584, 41.347898304 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Estació FGC Sant Boi", "Latitud": 41.348075, "Longitud": 2.042998 }, "geometry": { "type": "Point", "coordinates": [ 2.042998179, 41.348075425 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Carles Martí i Vilà - Dr. Antoni Pujadas", "Latitud": 41.34853, "Longitud": 2.03918 }, "geometry": { "type": "Point", "coordinates": [ 2.03917955, 41.348529689 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Pablo Picasso - Carles Martí i Vilà", "Latitud": 41.3489, "Longitud": 2.037021 }, "geometry": { "type": "Point", "coordinates": [ 2.037020879, 41.348899609 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Girona - Pablo Picasso", "Latitud": 41.350779, "Longitud": 2.034165 }, "geometry": { "type": "Point", "coordinates": [ 2.034164825, 41.350779388 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Girona - Pl. Montserrat Roig", "Latitud": 41.350764, "Longitud": 2.029866 }, "geometry": { "type": "Point", "coordinates": [ 2.029865858, 41.350764008 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Av. Can Carreras - Rda. Sant Ramon", "Latitud": 41.350176, "Longitud": 2.02667 }, "geometry": { "type": "Point", "coordinates": [ 2.026669736, 41.350176446 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Av. Can Carreras - Pg. Mimoses", "Latitud": 41.349042, "Longitud": 2.024002 }, "geometry": { "type": "Point", "coordinates": [ 2.024001824, 41.349042141 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Benviure - Av. Can Carreras", "Latitud": 41.347805, "Longitud": 2.023578 }, "geometry": { "type": "Point", "coordinates": [ 2.023578007, 41.347804768 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Ctra. Sant Climent - Camp Futbol Marianao", "Latitud": 41.346426, "Longitud": 2.02242 }, "geometry": { "type": "Point", "coordinates": [ 2.02241967, 41.346425979 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Camí de Golbes - Ctra. Sant Climent", "Latitud": 41.345521, "Longitud": 2.019363 }, "geometry": { "type": "Point", "coordinates": [ 2.019362907, 41.345520694 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Massís del Garraf - Can Paulet", "Latitud": 41.344394, "Longitud": 2.018337 }, "geometry": { "type": "Point", "coordinates": [ 2.018337035, 41.344393897 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Pirineus - Montsant", "Latitud": 41.343231, "Longitud": 2.018357 }, "geometry": { "type": "Point", "coordinates": [ 2.018356703, 41.343231436 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Pirineus - Gavarres", "Latitud": 41.342615, "Longitud": 2.020905 }, "geometry": { "type": "Point", "coordinates": [ 2.020904546, 41.342615417 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Pirineus - Onyar", "Latitud": 41.340688, "Longitud": 2.023694 }, "geometry": { "type": "Point", "coordinates": [ 2.023693908, 41.340688469 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Pirineus - Segre", "Latitud": 41.339864, "Longitud": 2.026443 }, "geometry": { "type": "Point", "coordinates": [ 2.026443451, 41.339864495 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Orioles - Cardener", "Latitud": 41.338133, "Longitud": 2.025356 }, "geometry": { "type": "Point", "coordinates": [ 2.025355579, 41.338133055 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Orioles - Tagomago", "Latitud": 41.337571, "Longitud": 2.023666 }, "geometry": { "type": "Point", "coordinates": [ 2.023665777, 41.337570623 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Orioles - Passatge Dragonera", "Latitud": 41.337631, "Longitud": 2.022242 }, "geometry": { "type": "Point", "coordinates": [ 2.022241931, 41.337630982 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Orioles - Medes", "Latitud": 41.337149, "Longitud": 2.020233 }, "geometry": { "type": "Point", "coordinates": [ 2.020233444, 41.337148689 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Medes - Port Lligat", "Latitud": 41.337996, "Longitud": 2.021804 }, "geometry": { "type": "Point", "coordinates": [ 2.02180365, 41.337996351 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Orioles - Tagomago", "Latitud": 41.33817, "Longitud": 2.025617 }, "geometry": { "type": "Point", "coordinates": [ 2.025617344, 41.338170139 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Segre - Besòs", "Latitud": 41.338982, "Longitud": 2.029069 }, "geometry": { "type": "Point", "coordinates": [ 2.029068612, 41.338982153 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Av. d'Aragó - Segre", "Latitud": 41.338011, "Longitud": 2.030082 }, "geometry": { "type": "Point", "coordinates": [ 2.030081644, 41.338011171 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Av. General Prim - Galícia", "Latitud": 41.337035, "Longitud": 2.033889 }, "geometry": { "type": "Point", "coordinates": [ 2.033888582, 41.337034941 ] } }
+]
+}

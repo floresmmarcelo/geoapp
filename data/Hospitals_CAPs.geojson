@@ -1,0 +1,13 @@
+var Hospitals_CAPs = {
+"type": "FeatureCollection",
+"name": "Hospitals_CAPs",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Sanitari": "Parc Sanitari Sant Joan de Déu", "Latitud": 41.354245, "Longitud": 2.032813 }, "geometry": { "type": "Point", "coordinates": [ 2.032813, 41.354245 ] } },
+{ "type": "Feature", "properties": { "Sanitari": "CAP Molí­ Nou", "Latitud": 41.356109, "Longitud": 2.026606 }, "geometry": { "type": "Point", "coordinates": [ 2.026606, 41.356109 ] } },
+{ "type": "Feature", "properties": { "Sanitari": "CAP Montclar", "Latitud": 41.346766, "Longitud": 2.034329 }, "geometry": { "type": "Point", "coordinates": [ 2.034329, 41.346766 ] } },
+{ "type": "Feature", "properties": { "Sanitari": "Residència Benviure", "Latitud": 41.343854, "Longitud": 2.028431 }, "geometry": { "type": "Point", "coordinates": [ 2.028431, 41.343854 ] } },
+{ "type": "Feature", "properties": { "Sanitari": "CAP Camps Blancs", "Latitud": 41.336859, "Longitud": 2.033777 }, "geometry": { "type": "Point", "coordinates": [ 2.033777, 41.336859 ] } },
+{ "type": "Feature", "properties": { "Sanitari": "CAP Vinyets", "Latitud": 41.333905, "Longitud": 2.042755 }, "geometry": { "type": "Point", "coordinates": [ 2.042755, 41.333905 ] } }
+]
+}

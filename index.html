@@ -1,0 +1,140 @@
+	<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="data/pueblos.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />-->
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"/>
+	
+	<!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+    <script src="http://rawgithub.com/kartena/Proj4Leaflet/master/lib/proj4-compressed.js" type="text/javascript"></script>
+    <script src="https://rawgithub.com/kartena/Proj4Leaflet/master/src/proj4leaflet.js" type="text/javascript"></script>
+	
+	<!--plugin search-->
+	<script src="js/leaflet-search.js"></script>
+	<link rel="stylesheet" href="css/leaflet-search.css" />
+	
+	<!--plugin styledLayerControl-->
+	<script src="js/styledLayerControl.js"></script>
+	<link rel="stylesheet" href="css/styledLayerControl.css" />
+	
+	<!--Anadimos capas de datos-->
+	<script src="data/SB1.geojson" /></script>
+	<script src="data/SB2.geojson" /></script>
+	<script src="data/SB3.geojson" /></script>
+	<script src="data/aparcaments2.geojson" /></script>
+	<script src="data/bancsfinalgjon.geojson" /></script>
+	<script src="data/bars_restaurants.geojson" /></script>
+	<script src="data/bibliotecas.geojson" /></script>
+	<script src="data/Edificis_Oficials_Ajuntaments.geojson" /></script>
+	<script src="data/Equipamientos_esportius_altres.geojson" /></script>
+	<script src="data/equipaments_educatius.geojson" /></script>
+	<script src="data/estaciones.geojson" /></script>
+	<script src="data/Farmacia.geojson" /></script>
+	<script src="data/Hospitals_CAPs.geojson" /></script>
+	<script src="data/gasolineras.geojson" /></script>
+	<script src="data/Supermercados.geojson" /></script>
+	<script src="data/policia2.geojson" /></script>
+	<script src="data/portales.geojson" /></script>
+	
+    <title>Mapa</title>
+	
+	<style>
+		#mapid { height: 180px; }
+		#page-map .ui-content { position: absolute; width: 100%;
+		height: 100%; padding: 0; }
+    </style>
+	
+</head>
+
+<body>
+    <div data-role="page" id="page-map">
+	
+		<div data-role="panel" id="defaultpanel" data-theme="b">
+ 			<div class="panel-content">
+				<h3>Menu lateral</h3>
+				<ul data-role="listview">
+					<li><a href="#">Mapa</a></li>
+                    <li><a href="javascript:location.href='lista.html'">Lista</a></li>
+                    <li><a href="javascript:location.href='page2.html'">Agregar pueblo</a></li>
+            	</ul>
+				<a href="#demo-links" data-rel="close" data-role="button" data-theme="a" data-icon="delete" data-inline="true">Cerrar menú</a>
+			</div>
+		</div>
+
+        <div data-role="header" data-position="fixed">
+            <a href="#defaultpanel" class="ui-btn ui-corner-all ui-btn-icon-notext ui-icon-bars">No text</a>
+            <h1>GeoApp 2020</h1>
+            <a href="javascript:location.href='page2.html'" class="ui-btn ui-corner-all ui-btn-icon-notext ui-icon-plus" data-transition="slidedown">No text</a>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <div id="mapid" style="width: 100%; height: 100%;"></div>
+        </div>
+	
+
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#" class="ui-btn ui-icon-location ui-btn-icon-top ui-disabled">Mapa</a></li>
+                    <li><a href="javascript:location.href='lista.html'" class="ui-btn ui-icon-grid ui-btn-icon-top">Lista</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            onDocumentReady();
+        });
+        app.initialize();
+    </script>
+</body>
+
+</html>

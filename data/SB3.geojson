@@ -1,0 +1,25 @@
+var SB3 = {
+"type": "FeatureCollection",
+"name": "SB3",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Nombre": "Saragossa - Tanatori", "Latitud": 41.339782, "Longitud": 2.050019 }, "geometry": { "type": "Point", "coordinates": [ 2.050019415, 41.339782043 ] } },
+{ "type": "Feature", "properties": { "Nombre": "d'Osca - Alguer", "Latitud": 41.338847, "Longitud": 2.048125 }, "geometry": { "type": "Point", "coordinates": [ 2.048124734, 41.338847462 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Sant Joan Bosco - Ctra. Sta. C. de Calafell", "Latitud": 41.340111, "Longitud": 2.046078 }, "geometry": { "type": "Point", "coordinates": [ 2.046077773, 41.340110839 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Bonaventura Calopa - Mn. Pere Tarrés", "Latitud": 41.342821, "Longitud": 2.04651 }, "geometry": { "type": "Point", "coordinates": [ 2.046509535, 41.342821439 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Bonaventura Calopa - Ctra. Fonda", "Latitud": 41.346333, "Longitud": 2.04719 }, "geometry": { "type": "Point", "coordinates": [ 2.047190058, 41.346332647 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Estació FGC Sant Boi", "Latitud": 41.348075, "Longitud": 2.042998 }, "geometry": { "type": "Point", "coordinates": [ 2.042998179, 41.348075422 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Carles Martí i Vilà - Dr. Antoni Pujadas", "Latitud": 41.34853, "Longitud": 2.03918 }, "geometry": { "type": "Point", "coordinates": [ 2.03917955, 41.348529689 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Pablo Picasso - Carles Martí i Vilà", "Latitud": 41.3489, "Longitud": 2.037021 }, "geometry": { "type": "Point", "coordinates": [ 2.037020879, 41.348899605 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Girona - Pablo Picasso", "Latitud": 41.350779, "Longitud": 2.034165 }, "geometry": { "type": "Point", "coordinates": [ 2.034164825, 41.350779384 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Girona - Pl. Montserrat Roig", "Latitud": 41.350764, "Longitud": 2.029866 }, "geometry": { "type": "Point", "coordinates": [ 2.029865858, 41.350764008 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Av. Can Carreras - Rda. Sant Ramon", "Latitud": 41.350176, "Longitud": 2.02667 }, "geometry": { "type": "Point", "coordinates": [ 2.026669736, 41.350176449 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Av. Can Carreras - Pg. Mimoses", "Latitud": 41.349042, "Longitud": 2.024002 }, "geometry": { "type": "Point", "coordinates": [ 2.024001824, 41.34904214 ] } },
+{ "type": "Feature", "properties": { "Nombre": "de la Ginesta - núm. 32", "Latitud": 41.34919, "Longitud": 2.02171 }, "geometry": { "type": "Point", "coordinates": [ 2.0217097, 41.349189624 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Acàcies - Ginesta", "Latitud": 41.350864, "Longitud": 2.021348 }, "geometry": { "type": "Point", "coordinates": [ 2.021347613, 41.350863957 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Acàcies - Liles", "Latitud": 41.351653, "Longitud": 2.019447 }, "geometry": { "type": "Point", "coordinates": [ 2.019446589, 41.351653497 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Acàcies - Pollancres", "Latitud": 41.351163, "Longitud": 2.018282 }, "geometry": { "type": "Point", "coordinates": [ 2.018281761, 41.351162748 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Acàcies núm. 88", "Latitud": 41.35046, "Longitud": 2.016471 }, "geometry": { "type": "Point", "coordinates": [ 2.016470784, 41.350460309 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Oms - Marianao", "Latitud": 41.349866, "Longitud": 2.015855 }, "geometry": { "type": "Point", "coordinates": [ 2.015855351, 41.349865506 ] } }
+]
+}

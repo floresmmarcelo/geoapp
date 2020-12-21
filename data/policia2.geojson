@@ -1,0 +1,11 @@
+var policia2 = {
+"type": "FeatureCollection",
+"name": "policia2",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Codi": 1.0, "X_UTM": 41.334816, "Y_UTM": 2.02924, "Tipo": "Comisaria policia Local" }, "geometry": { "type": "Point", "coordinates": [ 2.02924, 41.334816 ] } },
+{ "type": "Feature", "properties": { "Codi": 2.0, "X_UTM": 41.345288, "Y_UTM": 2.034914, "Tipo": "Comisaria policia nacional" }, "geometry": { "type": "Point", "coordinates": [ 2.034914, 41.345288 ] } },
+{ "type": "Feature", "properties": { "Codi": 3.0, "X_UTM": 41.349193, "Y_UTM": 2.039514, "Tipo": "Jefatura Mossos d'esquadra" }, "geometry": { "type": "Point", "coordinates": [ 2.039514, 41.349193 ] } },
+{ "type": "Feature", "properties": { "Codi": 4.0, "X_UTM": 41.352115, "Y_UTM": 2.023674, "Tipo": "Jefatura policia nacional" }, "geometry": { "type": "Point", "coordinates": [ 2.023674, 41.352115 ] } }
+]
+}

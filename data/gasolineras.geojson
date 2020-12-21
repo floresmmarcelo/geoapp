@@ -1,0 +1,21 @@
+var gasolineras = {
+"type": "FeatureCollection",
+"name": "gasolineras",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Gasolinera": "BP Montcla R SL BP", "Latitud": 41.34474, "Longitud": 2.036668 }, "geometry": { "type": "Point", "coordinates": [ 2.036668, 41.34474 ] } },
+{ "type": "Feature", "properties": { "Gasolinera": "MKT Galp Oasis", "Latitud": 41.345902, "Longitud": 2.050229 }, "geometry": { "type": "Point", "coordinates": [ 2.050229, 41.345902 ] } },
+{ "type": "Feature", "properties": { "Gasolinera": "Agencia de Repsol Butano", "Latitud": 41.33813, "Longitud": 2.048939 }, "geometry": { "type": "Point", "coordinates": [ 2.048939, 41.33813 ] } },
+{ "type": "Feature", "properties": { "Gasolinera": "Ballenoil  Sant Boi", "Latitud": 41.329677, "Longitud": 2.045905 }, "geometry": { "type": "Point", "coordinates": [ 2.045905, 41.329677 ] } },
+{ "type": "Feature", "properties": { "Gasolinera": "Gasolinera Alcampo", "Latitud": 41.331419, "Longitud": 2.054479 }, "geometry": { "type": "Point", "coordinates": [ 2.054479, 41.331419 ] } },
+{ "type": "Feature", "properties": { "Gasolinera": "Gasolinera Aneu Oil Sant Boi", "Latitud": 41.334584, "Longitud": 2.047822 }, "geometry": { "type": "Point", "coordinates": [ 2.047822, 41.334584 ] } },
+{ "type": "Feature", "properties": { "Gasolinera": "Molmar Sant Boi de Llobregar", "Latitud": 41.324719, "Longitud": 2.03194 }, "geometry": { "type": "Point", "coordinates": [ 2.03194, 41.324719 ] } },
+{ "type": "Feature", "properties": { "Gasolinera": "Ballenoil de Sant Boi", "Latitud": 41.320208, "Longitud": 2.034053 }, "geometry": { "type": "Point", "coordinates": [ 2.034053, 41.320208 ] } },
+{ "type": "Feature", "properties": { "Gasolinera": "Galp Progrres", "Latitud": 41.321417, "Longitud": 2.030746 }, "geometry": { "type": "Point", "coordinates": [ 2.030746, 41.321417 ] } },
+{ "type": "Feature", "properties": { "Gasolinera": "Tsunami Sant Boi", "Latitud": 41.321491, "Longitud": 2.035257 }, "geometry": { "type": "Point", "coordinates": [ 2.035257, 41.321491 ] } },
+{ "type": "Feature", "properties": { "Gasolinera": "Repsol Can Calderon", "Latitud": 41.326416, "Longitud": 2.038768 }, "geometry": { "type": "Point", "coordinates": [ 2.038768, 41.326416 ] } },
+{ "type": "Feature", "properties": { "Gasolinera": "Galp Santa creu de Calafell", "Latitud": 41.331757, "Longitud": 2.042155 }, "geometry": { "type": "Point", "coordinates": [ 2.042155, 41.331757 ] } },
+{ "type": "Feature", "properties": { "Gasolinera": "Gasoil Premium", "Latitud": 41.33502, "Longitud": 2.048115 }, "geometry": { "type": "Point", "coordinates": [ 2.048115, 41.33502 ] } },
+{ "type": "Feature", "properties": { "Gasolinera": "BP Cantabria", "Latitud": 41.334004, "Longitud": 2.049914 }, "geometry": { "type": "Point", "coordinates": [ 2.049914, 41.334004 ] } }
+]
+}

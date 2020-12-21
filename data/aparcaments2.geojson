@@ -1,0 +1,25 @@
+var aparcaments2 ={
+"type": "FeatureCollection",
+"name": "aparcaments2",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "aparcament": 1.0, "UTM_X": 41.355792, "UTM_Y": 2.022597, "nom": "Парковка" }, "geometry": { "type": "Point", "coordinates": [ 2.022597, 41.355792 ] } },
+{ "type": "Feature", "properties": { "aparcament": 2.0, "UTM_X": 41.349803, "UTM_Y": 2.039389, "nom": "Aparcament Torras I Bages Sant Boi" }, "geometry": { "type": "Point", "coordinates": [ 2.039389, 41.349803 ] } },
+{ "type": "Feature", "properties": { "aparcament": 3.0, "UTM_X": 41.344872, "UTM_Y": 2.035566, "nom": "aparcament" }, "geometry": { "type": "Point", "coordinates": [ 2.035566, 41.344872 ] } },
+{ "type": "Feature", "properties": { "aparcament": 4.0, "UTM_X": 41.348615, "UTM_Y": 2.043673, "nom": "Parking FFCC" }, "geometry": { "type": "Point", "coordinates": [ 2.043673, 41.348615 ] } },
+{ "type": "Feature", "properties": { "aparcament": 5.0, "UTM_X": 41.346049, "UTM_Y": 2.047595, "nom": "Aparcament de la Fira de la Purissima" }, "geometry": { "type": "Point", "coordinates": [ 2.047595, 41.346049 ] } },
+{ "type": "Feature", "properties": { "aparcament": 6.0, "UTM_X": 41.347087, "UTM_Y": 2.052796, "nom": "Cami del Sorral" }, "geometry": { "type": "Point", "coordinates": [ 2.052796, 41.347087 ] } },
+{ "type": "Feature", "properties": { "aparcament": 7.0, "UTM_X": 41.33635, "UTM_Y": 2.050658, "nom": "Aparcamiento Lavacolla" }, "geometry": { "type": "Point", "coordinates": [ 2.050658, 41.33635 ] } },
+{ "type": "Feature", "properties": { "aparcament": 8.0, "UTM_X": 41.3366, "UTM_Y": 2.047042, "nom": "Aparcament" }, "geometry": { "type": "Point", "coordinates": [ 2.047042, 41.3366 ] } },
+{ "type": "Feature", "properties": { "aparcament": 9.0, "UTM_X": 41.33995, "UTM_Y": 2.04195, "nom": "Parquing San Boi" }, "geometry": { "type": "Point", "coordinates": [ 2.04195, 41.33995 ] } },
+{ "type": "Feature", "properties": { "aparcament": 10.0, "UTM_X": 41.340982, "UTM_Y": 2.037872, "nom": "Baldiri Aleu" }, "geometry": { "type": "Point", "coordinates": [ 2.037872, 41.340982 ] } },
+{ "type": "Feature", "properties": { "aparcament": 11.0, "UTM_X": 41.330864, "UTM_Y": 2.03886, "nom": "Quick Parking Barcelona" }, "geometry": { "type": "Point", "coordinates": [ 2.03886, 41.330864 ] } },
+{ "type": "Feature", "properties": { "aparcament": 12.0, "UTM_X": 41.330809, "UTM_Y": 2.038958, "nom": "Air Parking Barcelona" }, "geometry": { "type": "Point", "coordinates": [ 2.038958, 41.330809 ] } },
+{ "type": "Feature", "properties": { "aparcament": 13.0, "UTM_X": 41.330815, "UTM_Y": 2.035803, "nom": "Carrer Riera del Fonollar, 15 Parking" }, "geometry": { "type": "Point", "coordinates": [ 2.035803, 41.330815 ] } },
+{ "type": "Feature", "properties": { "aparcament": 14.0, "UTM_X": 41.33508, "UTM_Y": 2.028247, "nom": "Cocheras De Coresa" }, "geometry": { "type": "Point", "coordinates": [ 2.028247, 41.33508 ] } },
+{ "type": "Feature", "properties": { "aparcament": 15.0, "UTM_X": 41.345792, "UTM_Y": 2.030802, "nom": "Parking Entrada Peatones" }, "geometry": { "type": "Point", "coordinates": [ 2.030802, 41.345792 ] } },
+{ "type": "Feature", "properties": { "aparcament": 16.0, "UTM_X": 41.355444, "UTM_Y": 2.028476, "nom": "Park" }, "geometry": { "type": "Point", "coordinates": [ 2.028476, 41.355444 ] } },
+{ "type": "Feature", "properties": { "aparcament": 17.0, "UTM_X": 41.332324, "UTM_Y": 2.050109, "nom": "OnePark" }, "geometry": { "type": "Point", "coordinates": [ 2.050109, 41.332324 ] } },
+{ "type": "Feature", "properties": { "aparcament": 18.0, "UTM_X": 41.329613, "UTM_Y": 2.05131, "nom": "Parquing Zona Comercial" }, "geometry": { "type": "Point", "coordinates": [ 2.05131, 41.329613 ] } }
+]
+}

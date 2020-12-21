@@ -1,0 +1,29 @@
+{
+"type": "FeatureCollection",
+"name": "escoles_primaries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "escoles": "Escola Josep Maria Ciurana", "latitud": 41.356195, "longitud": 2.028377 }, "geometry": { "type": "Point", "coordinates": [ 2.028377, 41.356195 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Rafael Casanova", "latitud": 41.3542, "longitud": 2.02887 }, "geometry": { "type": "Point", "coordinates": [ 2.02887, 41.3542 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Marianao", "latitud": 41.350173, "longitud": 2.024896 }, "geometry": { "type": "Point", "coordinates": [ 2.024896, 41.350173 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Benviure", "latitud": 41.345953, "longitud": 2.022215 }, "geometry": { "type": "Point", "coordinates": [ 2.022215, 41.345953 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Amat VerdÃº", "latitud": 41.343413, "longitud": 2.035823 }, "geometry": { "type": "Point", "coordinates": [ 2.035823, 41.343413 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Antoni TÃ pies", "latitud": 41.34196, "longitud": 2.037062 }, "geometry": { "type": "Point", "coordinates": [ 2.037062, 41.34196 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Barrufet", "latitud": 41.339179, "longitud": 2.036127 }, "geometry": { "type": "Point", "coordinates": [ 2.036127, 41.339179 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Montbaig", "latitud": 41.334457, "longitud": 2.034238 }, "geometry": { "type": "Point", "coordinates": [ 2.034238, 41.334457 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Parellada", "latitud": 41.34208, "longitud": 2.047069 }, "geometry": { "type": "Point", "coordinates": [ 2.047069, 41.34208 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Antoni GaudÃ­", "latitud": 41.349281, "longitud": 2.036256 }, "geometry": { "type": "Point", "coordinates": [ 2.036256, 41.349281 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Ciutat Cooperativa", "latitud": 41.357077, "longitud": 2.033815 }, "geometry": { "type": "Point", "coordinates": [ 2.033815, 41.357077 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Can Massallera", "latitud": 41.342265, "longitud": 2.042283 }, "geometry": { "type": "Point", "coordinates": [ 2.042283, 41.342265 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Casablanca", "latitud": 41.332942, "longitud": 2.038037 }, "geometry": { "type": "Point", "coordinates": [ 2.038037, 41.332942 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Vicente Ferrer", "latitud": 41.345882, "longitud": 2.02691 }, "geometry": { "type": "Point", "coordinates": [ 2.02691, 41.345882 ] } },
+{ "type": "Feature", "properties": { "escoles": "ColÂ·legi Sagrat Cor - Vedruna", "latitud": 41.346593, "longitud": 2.037902 }, "geometry": { "type": "Point", "coordinates": [ 2.037902, 41.346593 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Salesiana Mare de DÃ©u dels Dolors", "latitud": 41.348801, "longitud": 2.035169 }, "geometry": { "type": "Point", "coordinates": [ 2.035169, 41.348801 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola InstituciÃ³ Llor", "latitud": 41.35582, "longitud": 2.024718 }, "geometry": { "type": "Point", "coordinates": [ 2.024718, 41.35582 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Santo TomÃ¡s", "latitud": 41.3476, "longitud": 2.034112 }, "geometry": { "type": "Point", "coordinates": [ 2.034112, 41.3476 ] } },
+{ "type": "Feature", "properties": { "escoles": "ColÂ·legi MolÃ­ Nou", "latitud": 41.355937, "longitud": 2.034922 }, "geometry": { "type": "Point", "coordinates": [ 2.034922, 41.355937 ] } },
+{ "type": "Feature", "properties": { "escoles": "ColÂ·legi Joan Bardina", "latitud": 41.343403, "longitud": 2.041794 }, "geometry": { "type": "Point", "coordinates": [ 2.041794, 41.343403 ] } },
+{ "type": "Feature", "properties": { "escoles": "Escola Sant Josep -PrimÃ ria", "latitud": 41.351252, "longitud": 2.026195 }, "geometry": { "type": "Point", "coordinates": [ 2.026195, 41.351252 ] } },
+{ "type": "Feature", "properties": { "escoles": "ColÂ·legi Pedagogium Cos", "latitud": 41.341555, "longitud": 2.039276 }, "geometry": { "type": "Point", "coordinates": [ 2.039276, 41.341555 ] } }
+]
+}

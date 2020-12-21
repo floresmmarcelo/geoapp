@@ -1,0 +1,21 @@
+var Edificis_Oficials_Ajuntaments = {
+"type": "FeatureCollection",
+"name": "Edificis_Oficials_Ajuntaments",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Field1": "Ajuntament de Sant Boi", "Latitud": 41.347593, "Longitud": 2.043193 }, "geometry": { "type": "Point", "coordinates": [ 2.043193, 41.347593 ] } },
+{ "type": "Feature", "properties": { "Field1": "Centre civic Els Vinyets. Can Massallera", "Latitud": 41.341774, "Longitud": 2.0427 }, "geometry": { "type": "Point", "coordinates": [ 2.0427, 41.341774 ] } },
+{ "type": "Feature", "properties": { "Field1": "Camps Blancs-Casablanca-La Gralla", "Latitud": 41.333218, "Longitud": 2.037936 }, "geometry": { "type": "Point", "coordinates": [ 2.037936, 41.333218 ] } },
+{ "type": "Feature", "properties": { "Field1": "Centre civic Marianao. L'Olivera", "Latitud": 41.35161, "Longitud": 2.029605 }, "geometry": { "type": "Point", "coordinates": [ 2.029605, 41.35161 ] } },
+{ "type": "Feature", "properties": { "Field1": "Cooperativa-Molí­Nou. Casal de Barri", "Latitud": 41.356834, "Longitud": 2.029803 }, "geometry": { "type": "Point", "coordinates": [ 2.029803, 41.356834 ] } },
+{ "type": "Feature", "properties": { "Field1": "Casal del Barri Marianao", "Latitud": 41.345899, "Longitud": 2.031843 }, "geometry": { "type": "Point", "coordinates": [ 2.031843, 41.345899 ] } },
+{ "type": "Feature", "properties": { "Field1": "Casal de Casablanca", "Latitud": 41.332465, "Longitud": 2.040749 }, "geometry": { "type": "Point", "coordinates": [ 2.040749, 41.332465 ] } },
+{ "type": "Feature", "properties": { "Field1": "Centre civic la Gralla", "Latitud": 41.333229, "Longitud": 2.037935 }, "geometry": { "type": "Point", "coordinates": [ 2.037935, 41.333229 ] } },
+{ "type": "Feature", "properties": { "Field1": "Casal de Camps Blancs", "Latitud": 41.3367, "Longitud": 2.034146 }, "geometry": { "type": "Point", "coordinates": [ 2.034146, 41.3367 ] } },
+{ "type": "Feature", "properties": { "Field1": "Associació de dones de Sant Boi", "Latitud": 41.344815, "Longitud": 2.029494 }, "geometry": { "type": "Point", "coordinates": [ 2.029494, 41.344815 ] } },
+{ "type": "Feature", "properties": { "Field1": "Hotel d'entitats de Sant Boi", "Latitud": 41.346958, "Longitud": 2.042336 }, "geometry": { "type": "Point", "coordinates": [ 2.042336, 41.346958 ] } },
+{ "type": "Feature", "properties": { "Field1": "Museu de Sant Boi", "Latitud": 41.347001, "Longitud": 2.045864 }, "geometry": { "type": "Point", "coordinates": [ 2.045864, 41.347001 ] } },
+{ "type": "Feature", "properties": { "Field1": "Termes Romanes", "Latitud": 41.347341, "Longitud": 2.046505 }, "geometry": { "type": "Point", "coordinates": [ 2.046505, 41.347341 ] } },
+{ "type": "Feature", "properties": { "Field1": "Casal de gent gran de Sant Boi", "Latitud": 41.34723, "Longitud": 2.031323 }, "geometry": { "type": "Point", "coordinates": [ 2.031323, 41.34723 ] } }
+]
+}

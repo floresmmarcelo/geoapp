@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "escoles_bressol",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Nombre": "Escola Bressol Municipal La Marta", "Latitud": 41.355589, "Longitud": 2.027014 }, "geometry": { "type": "Point", "coordinates": [ 2.027014, 41.355589 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Escola Bressol Municipal La MercÃ¨", "Latitud": 41.349213, "Longitud": 2.023795 }, "geometry": { "type": "Point", "coordinates": [ 2.023795, 41.349213 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Escola Bressol Municipal La Susa", "Latitud": 41.343505, "Longitud": 2.047075 }, "geometry": { "type": "Point", "coordinates": [ 2.047075, 41.343505 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Escola Bressol Mare de DÃ©u de la Immaculada", "Latitud": 41.336391, "Longitud": 2.037156 }, "geometry": { "type": "Point", "coordinates": [ 2.037156, 41.336391 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Escola Bressol Bambi", "Latitud": 41.338986, "Longitud": 2.032518 }, "geometry": { "type": "Point", "coordinates": [ 2.032518, 41.338986 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Escola Bressol Lumen", "Latitud": 41.346592, "Longitud": 2.038641 }, "geometry": { "type": "Point", "coordinates": [ 2.038641, 41.346592 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Escola Bressol Quitxalla", "Latitud": 41.346058, "Longitud": 2.038555 }, "geometry": { "type": "Point", "coordinates": [ 2.038555, 41.346058 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Escola Bressol Pedagogium Cos (Mireia)", "Latitud": 41.341511, "Longitud": 2.039264 }, "geometry": { "type": "Point", "coordinates": [ 2.039264, 41.341511 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Escola Bressol Nova NoemÃ­", "Latitud": 41.343558, "Longitud": 2.042289 }, "geometry": { "type": "Point", "coordinates": [ 2.042289, 41.343558 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Escola Bressol Tic-Tac", "Latitud": 41.349947, "Longitud": 2.026525 }, "geometry": { "type": "Point", "coordinates": [ 2.026525, 41.349947 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Escola Bressol La Mimosa", "Latitud": 41.346743, "Longitud": 2.031463 }, "geometry": { "type": "Point", "coordinates": [ 2.031463, 41.346743 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Escola Bressol Daina", "Latitud": 41.346738, "Longitud": 2.032889 }, "geometry": { "type": "Point", "coordinates": [ 2.032889, 41.346738 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Escola bressol Picarol 2", "Latitud": 41.348518, "Longitud": 2.029234 }, "geometry": { "type": "Point", "coordinates": [ 2.029234, 41.348518 ] } },
+{ "type": "Feature", "properties": { "Nombre": "Escola bressol Picarol 1", "Latitud": 41.339994, "Longitud": 2.043955 }, "geometry": { "type": "Point", "coordinates": [ 2.043955, 41.339994 ] } }
+]
+}

@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "instituts",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "instituts": "Institut Itaca", "latitud": 41.340876, "longitud": 2.046252 }, "geometry": { "type": "Point", "coordinates": [ 2.046252, 41.340876 ] } },
+{ "type": "Feature", "properties": { "instituts": "Institut Marianao", "latitud": 41.34953, "longitud": 2.023077 }, "geometry": { "type": "Point", "coordinates": [ 2.023077, 41.34953 ] } },
+{ "type": "Feature", "properties": { "instituts": "Institut Rafael Casanova", "latitud": 41.355348, "longitud": 2.02882 }, "geometry": { "type": "Point", "coordinates": [ 2.02882, 41.355348 ] } },
+{ "type": "Feature", "properties": { "instituts": "Institut Joaquim Rubió i Ors", "latitud": 41.342528, "longitud": 2.036877 }, "geometry": { "type": "Point", "coordinates": [ 2.036877, 41.342528 ] } },
+{ "type": "Feature", "properties": { "instituts": "IES Camps Blancs", "latitud": 41.336257, "longitud": 2.029404 }, "geometry": { "type": "Point", "coordinates": [ 2.029404, 41.336257 ] } },
+{ "type": "Feature", "properties": { "instituts": "IES Sant Josep", "latitud": 41.34851, "longitud": 2.022647 }, "geometry": { "type": "Point", "coordinates": [ 2.022647, 41.34851 ] } }
+]
+}
